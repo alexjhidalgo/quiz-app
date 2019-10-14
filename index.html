@@ -3,18 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" type="a multiple choice quiz with tv and movie quotes that are answered by which quote comes next.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Quote Finisher Quiz</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>So you think you know pop culture?</h1>
+        <h1>Think you know pop culture?</h1>
         <br>
-        <h2>Take a quiz to see if you know what line comes next in the script of hit movies and tv shows!</h2>
+        <h2>Answer which line comes next in quotes from hit movies and tv shows!</h2>
     </header>
-    <form>
-        <button>Start Quiz</button>
-    </form>
+    <main>
+        <section class='questions'>
+            <header class='current-question'>
+                <h1>"This is a quote and the next line is..." "____"</h1>
+            </header>
+            <form>
+                What comes next?
+                <br>
+                <input type='radio' name='endquote' id='ans1'>
+                <label>Is this the next line in the quote?</label>
+                <br>
+                <input type='radio' name='endquote' id='ans2'>
+                <label>Is this the next line in the quote?</label>
+                <br>
+                <input type='radio' name='endquote' id='ans3'>
+                <label>Is this the next line in the quote?</label>
+                <br>
+                <input type='radio' name='endquote' id='ans4'>
+                <label>Is this the next line in the quote?</label>
+            </form>
+        </section>
+        <nav class='next-question'>
+                <button>Next Question</button> </nav>
+        <div class='start-quiz'>
+                <button>Start Quiz</button>
+        </div>
+    </main>
 </body>
 </html>
