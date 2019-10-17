@@ -88,8 +88,9 @@ function renderQuestionsPage(){
         const qPageNum = STORE.qPages[STORE.currentQuestion]
 
         $('.questionsPage').html(`
-        ${STORE.qPages[STORE.currentQuestion].startQuote}
-        <br> 
+        <br>
+        <br>
+        <h1>"${STORE.qPages[STORE.currentQuestion].startQuote}"</h1>
         <h3>What comes next?</h3>
         <form>
             <input value='0' id='ans0' type='radio' name='endQuote' checked>
@@ -110,7 +111,7 @@ function renderQuestionsPage(){
             <input value='3' id='ans3' type='radio' name='endQuote'>
                 <label>${qPageNum.answers[3]}</label>
         </form>
-
+        <br>
         <button> Final Answer </button>
         `)
     })

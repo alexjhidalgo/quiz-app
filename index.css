@@ -1,6 +1,76 @@
 *{
     box-sizing: border-box;
 }
-.next-question{
-    display: none;
-}
+
+    html { 
+        background: url(https://qph.fs.quoracdn.net/main-qimg-d6060c18ed672a66335afc3c1dcd57c8) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    .header{
+        color:gold;
+        background-color: black;
+        border: 10px solid crimson;
+        position: fixed;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .landingPage{
+        color: gold;
+        font-size: 15px;
+        background-color: black;
+        text-align: center;
+        border: 10px solid crimson;
+        display:flex;
+        flex-direction: column;
+        float: center;
+        position: relative;
+        
+    }
+    .landingPage > button{
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: silver;
+        border: 3px solid gold;
+
+    }
+    .questionsPage{
+        color: gold;
+        font-size: 15px;
+        background-color: black;
+        text-align: center;
+        border: 10px solid crimson;
+
+    }
+    .questionsPage > form{
+        text-align: left;
+        margin-left: 5px;
+    }
+    .questionsPage > button{
+        border: 3px solid gold;
+    }
+    .answersPage{
+        color: gold;
+        font-size: 15px;
+        background: black;
+        text-align: center;
+        border: 10px solid crimson;
+    }
+    .answersPage > button{
+        border: 3px solid gold;
+    }
+    .summaryPage{
+        color: gold;
+        font-size: 15px;
+        background: black;
+        text-align: center;
+        border: 10px solid crimson;
+    }
+    .summaryPage > button{
+        border: 3px solid gold;
