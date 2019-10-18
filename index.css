@@ -53,6 +53,7 @@
         margin-left: 5px;
     }
     .questionsPage > button{
+        background: silver;
         border: 3px solid gold;
     }
     .answersPage{
@@ -63,6 +64,7 @@
         border: 10px solid crimson;
     }
     .answersPage > button{
+        background: silver;
         border: 3px solid gold;
     }
     .summaryPage{
@@ -74,3 +76,4 @@
     }
     .summaryPage > button{
         border: 3px solid gold;
+    }
